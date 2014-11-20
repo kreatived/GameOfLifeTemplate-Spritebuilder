@@ -10,7 +10,7 @@
 
 @implementation Creature
 
--(id)initCreature {
+-(instancetype)initCreature {
     // since we made Create inherit from CCSprite, 'super' below refers to CCSprite
     self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/bubble.png"];
     
